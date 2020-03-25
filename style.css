@@ -1,0 +1,83 @@
+html {
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+body {
+    padding-bottom: 10px;
+  }
+  
+.navbar {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    max-width: 1280px;
+    align-content: center;
+} 
+.container {
+    max-width: 1280px;
+  }
+  
+.header {
+    max-width: 1280px;
+  }
+  
+.card-deck .card {
+    min-width: 220px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 18px;
+    }
+}
+@media (min-width: 1280px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+img {
+    min-width: 120px;
+
+}
+
+.mystyle {
+    font-size: 11pt; 
+    font-family: Arial;
+    border-collapse: collapse; 
+    border: 1px solid silver;
+
+}
+
+.mystyle td, th {
+    padding: 5px;
+}
+
+.mystyle tr:nth-child(even) {
+    background: #E0E0E0;
+}
+
+.mystyle tr:hover {
+    background: silver;
+    cursor: pointer;
+}
+
+.TFtable{
+    width:100%; 
+    border-collapse:collapse; 
+}
+.TFtable td{ 
+    padding:7px; border:#4e95f4 0px solid;
+}
+/* provide some minimal visual accomodation for IE8 and below */
+.TFtable tr{
+    background: white;
+}
+/*  Define the background color for all the ODD background rows  */
+.TFtable tr:nth-child(odd){ 
+    background: white;
+}
+/*  Define the background color for all the EVEN background rows  */
+.TFtable tr:nth-child(even){
+    background:rgb(230, 230, 230);
+}
